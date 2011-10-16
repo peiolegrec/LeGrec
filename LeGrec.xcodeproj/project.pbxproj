@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40481C93144B1C4600A42E0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481C92144B1C4600A42E0A /* UIKit.framework */; };
+		40481C95144B1C4600A42E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481C94144B1C4600A42E0A /* Foundation.framework */; };
+		40481C9B144B1C4600A42E0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40481C99144B1C4600A42E0A /* InfoPlist.strings */; };
+		40481C9D144B1C4600A42E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481C9C144B1C4600A42E0A /* main.m */; };
+		40481CA1144B1C4600A42E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481CA0144B1C4600A42E0A /* AppDelegate.m */; };
+		40481CA4144B1C4600A42E0A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40481CA2144B1C4600A42E0A /* MainStoryboard.storyboard */; };
+		40481CA7144B1C4600A42E0A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481CA6144B1C4600A42E0A /* MasterViewController.m */; };
+		40481CAA144B1C4600A42E0A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481CA9144B1C4600A42E0A /* DetailViewController.m */; };
+		40481CB2144B1C4600A42E0A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481CB1144B1C4600A42E0A /* SenTestingKit.framework */; };
+		40481CB3144B1C4600A42E0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481C92144B1C4600A42E0A /* UIKit.framework */; };
+		40481CB4144B1C4600A42E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481C94144B1C4600A42E0A /* Foundation.framework */; };
+		40481CBC144B1C4600A42E0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40481CBA144B1C4600A42E0A /* InfoPlist.strings */; };
+		40481CBF144B1C4600A42E0A /* LeGrecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481CBE144B1C4600A42E0A /* LeGrecTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40481CB5144B1C4600A42E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40481C85144B1C4500A42E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40481C8D144B1C4600A42E0A;
+			remoteInfo = LeGrec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40481C8E144B1C4600A42E0A /* LeGrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeGrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40481C92144B1C4600A42E0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40481C94144B1C4600A42E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40481C98144B1C4600A42E0A /* LeGrec-Info.plist */ = {isa = PBXFileReference; path = "LeGrec-Info.plist"; sourceTree = "<group>"; };
+		40481C9A144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40481C9C144B1C4600A42E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40481C9E144B1C4600A42E0A /* LeGrec-Prefix.pch */ = {isa = PBXFileReference; path = "LeGrec-Prefix.pch"; sourceTree = "<group>"; };
+		40481C9F144B1C4600A42E0A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		40481CA0144B1C4600A42E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40481CA3144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		40481CA5144B1C4600A42E0A /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		40481CA6144B1C4600A42E0A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		40481CA8144B1C4600A42E0A /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		40481CA9144B1C4600A42E0A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		40481CB0144B1C4600A42E0A /* LeGrecTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeGrecTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40481CB1144B1C4600A42E0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		40481CB9144B1C4600A42E0A /* LeGrecTests-Info.plist */ = {isa = PBXFileReference; path = "LeGrecTests-Info.plist"; sourceTree = "<group>"; };
+		40481CBB144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40481CBD144B1C4600A42E0A /* LeGrecTests.h */ = {isa = PBXFileReference; path = LeGrecTests.h; sourceTree = "<group>"; };
+		40481CBE144B1C4600A42E0A /* LeGrecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeGrecTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40481C8B144B1C4600A42E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481C93144B1C4600A42E0A /* UIKit.framework in Frameworks */,
+				40481C95144B1C4600A42E0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40481CAC144B1C4600A42E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481CB2144B1C4600A42E0A /* SenTestingKit.framework in Frameworks */,
+				40481CB3144B1C4600A42E0A /* UIKit.framework in Frameworks */,
+				40481CB4144B1C4600A42E0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40481C83144B1C4500A42E0A = {
+			isa = PBXGroup;
+			children = (
+				40481C96144B1C4600A42E0A /* LeGrec */,
+				40481CB7144B1C4600A42E0A /* LeGrecTests */,
+				40481C91144B1C4600A42E0A /* Frameworks */,
+				40481C8F144B1C4600A42E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40481C8F144B1C4600A42E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40481C8E144B1C4600A42E0A /* LeGrec.app */,
+				40481CB0144B1C4600A42E0A /* LeGrecTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40481C91144B1C4600A42E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40481C92144B1C4600A42E0A /* UIKit.framework */,
+				40481C94144B1C4600A42E0A /* Foundation.framework */,
+				40481CB1144B1C4600A42E0A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40481C96144B1C4600A42E0A /* LeGrec */ = {
+			isa = PBXGroup;
+			children = (
+				40481C9F144B1C4600A42E0A /* AppDelegate.h */,
+				40481CA0144B1C4600A42E0A /* AppDelegate.m */,
+				40481CA2144B1C4600A42E0A /* MainStoryboard.storyboard */,
+				40481CA5144B1C4600A42E0A /* MasterViewController.h */,
+				40481CA6144B1C4600A42E0A /* MasterViewController.m */,
+				40481CA8144B1C4600A42E0A /* DetailViewController.h */,
+				40481CA9144B1C4600A42E0A /* DetailViewController.m */,
+				40481C97144B1C4600A42E0A /* Supporting Files */,
+			);
+			path = LeGrec;
+			sourceTree = "<group>";
+		};
+		40481C97144B1C4600A42E0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40481C98144B1C4600A42E0A /* LeGrec-Info.plist */,
+				40481C99144B1C4600A42E0A /* InfoPlist.strings */,
+				40481C9C144B1C4600A42E0A /* main.m */,
+				40481C9E144B1C4600A42E0A /* LeGrec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40481CB7144B1C4600A42E0A /* LeGrecTests */ = {
+			isa = PBXGroup;
+			children = (
+				40481CBD144B1C4600A42E0A /* LeGrecTests.h */,
+				40481CBE144B1C4600A42E0A /* LeGrecTests.m */,
+				40481CB8144B1C4600A42E0A /* Supporting Files */,
+			);
+			path = LeGrecTests;
+			sourceTree = "<group>";
+		};
+		40481CB8144B1C4600A42E0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40481CB9144B1C4600A42E0A /* LeGrecTests-Info.plist */,
+				40481CBA144B1C4600A42E0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40481C8D144B1C4600A42E0A /* LeGrec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40481CC2144B1C4600A42E0A /* Build configuration list for PBXNativeTarget "LeGrec" */;
+			buildPhases = (
+				40481C8A144B1C4600A42E0A /* Sources */,
+				40481C8B144B1C4600A42E0A /* Frameworks */,
+				40481C8C144B1C4600A42E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeGrec;
+			productName = LeGrec;
+			productReference = 40481C8E144B1C4600A42E0A /* LeGrec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40481CAF144B1C4600A42E0A /* LeGrecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40481CC5144B1C4600A42E0A /* Build configuration list for PBXNativeTarget "LeGrecTests" */;
+			buildPhases = (
+				40481CAB144B1C4600A42E0A /* Sources */,
+				40481CAC144B1C4600A42E0A /* Frameworks */,
+				40481CAD144B1C4600A42E0A /* Resources */,
+				40481CAE144B1C4600A42E0A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40481CB6144B1C4600A42E0A /* PBXTargetDependency */,
+			);
+			name = LeGrecTests;
+			productName = LeGrecTests;
+			productReference = 40481CB0144B1C4600A42E0A /* LeGrecTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40481C85144B1C4500A42E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 40481C88144B1C4500A42E0A /* Build configuration list for PBXProject "LeGrec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40481C83144B1C4500A42E0A;
+			productRefGroup = 40481C8F144B1C4600A42E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40481C8D144B1C4600A42E0A /* LeGrec */,
+				40481CAF144B1C4600A42E0A /* LeGrecTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40481C8C144B1C4600A42E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481C9B144B1C4600A42E0A /* InfoPlist.strings in Resources */,
+				40481CA4144B1C4600A42E0A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40481CAD144B1C4600A42E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481CBC144B1C4600A42E0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40481CAE144B1C4600A42E0A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40481C8A144B1C4600A42E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481C9D144B1C4600A42E0A /* main.m in Sources */,
+				40481CA1144B1C4600A42E0A /* AppDelegate.m in Sources */,
+				40481CA7144B1C4600A42E0A /* MasterViewController.m in Sources */,
+				40481CAA144B1C4600A42E0A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40481CAB144B1C4600A42E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40481CBF144B1C4600A42E0A /* LeGrecTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40481CB6144B1C4600A42E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40481C8D144B1C4600A42E0A /* LeGrec */;
+			targetProxy = 40481CB5144B1C4600A42E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40481C99144B1C4600A42E0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40481C9A144B1C4600A42E0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40481CA2144B1C4600A42E0A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40481CA3144B1C4600A42E0A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		40481CBA144B1C4600A42E0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40481CBB144B1C4600A42E0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40481CC0144B1C4600A42E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40481CC1144B1C4600A42E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40481CC3144B1C4600A42E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
+				INFOPLIST_FILE = "LeGrec/LeGrec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40481CC4144B1C4600A42E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
+				INFOPLIST_FILE = "LeGrec/LeGrec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		40481CC6144B1C4600A42E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeGrec.app/LeGrec";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
+				INFOPLIST_FILE = "LeGrecTests/LeGrecTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		40481CC7144B1C4600A42E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeGrec.app/LeGrec";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
+				INFOPLIST_FILE = "LeGrecTests/LeGrecTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40481C88144B1C4500A42E0A /* Build configuration list for PBXProject "LeGrec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40481CC0144B1C4600A42E0A /* Debug */,
+				40481CC1144B1C4600A42E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40481CC2144B1C4600A42E0A /* Build configuration list for PBXNativeTarget "LeGrec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40481CC3144B1C4600A42E0A /* Debug */,
+				40481CC4144B1C4600A42E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40481CC5144B1C4600A42E0A /* Build configuration list for PBXNativeTarget "LeGrecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40481CC6144B1C4600A42E0A /* Debug */,
+				40481CC7144B1C4600A42E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40481C85144B1C4500A42E0A /* Project object */;
+}
