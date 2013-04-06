@@ -20,6 +20,8 @@
 		40481CB4144B1C4600A42E0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40481C94144B1C4600A42E0A /* Foundation.framework */; };
 		40481CBC144B1C4600A42E0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40481CBA144B1C4600A42E0A /* InfoPlist.strings */; };
 		40481CBF144B1C4600A42E0A /* LeGrecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40481CBE144B1C4600A42E0A /* LeGrecTests.m */; };
+		40481CCD144B20BA00A42E0A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40481CCC144B20BA00A42E0A /* icon.png */; };
+		40481CCF144B20C200A42E0A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40481CCE144B20C200A42E0A /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +38,25 @@
 		40481C8E144B1C4600A42E0A /* LeGrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeGrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40481C92144B1C4600A42E0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40481C94144B1C4600A42E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		40481C98144B1C4600A42E0A /* LeGrec-Info.plist */ = {isa = PBXFileReference; path = "LeGrec-Info.plist"; sourceTree = "<group>"; };
+		40481C98144B1C4600A42E0A /* LeGrec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeGrec-Info.plist"; sourceTree = "<group>"; };
 		40481C9A144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40481C9C144B1C4600A42E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40481C9E144B1C4600A42E0A /* LeGrec-Prefix.pch */ = {isa = PBXFileReference; path = "LeGrec-Prefix.pch"; sourceTree = "<group>"; };
-		40481C9F144B1C4600A42E0A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		40481C9E144B1C4600A42E0A /* LeGrec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeGrec-Prefix.pch"; sourceTree = "<group>"; };
+		40481C9F144B1C4600A42E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40481CA0144B1C4600A42E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		40481CA3144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		40481CA5144B1C4600A42E0A /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		40481CA5144B1C4600A42E0A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		40481CA6144B1C4600A42E0A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		40481CA8144B1C4600A42E0A /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		40481CA8144B1C4600A42E0A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		40481CA9144B1C4600A42E0A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		40481CB0144B1C4600A42E0A /* LeGrecTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeGrecTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40481CB1144B1C4600A42E0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		40481CB9144B1C4600A42E0A /* LeGrecTests-Info.plist */ = {isa = PBXFileReference; path = "LeGrecTests-Info.plist"; sourceTree = "<group>"; };
+		40481CB9144B1C4600A42E0A /* LeGrecTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeGrecTests-Info.plist"; sourceTree = "<group>"; };
 		40481CBB144B1C4600A42E0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40481CBD144B1C4600A42E0A /* LeGrecTests.h */ = {isa = PBXFileReference; path = LeGrecTests.h; sourceTree = "<group>"; };
+		40481CBD144B1C4600A42E0A /* LeGrecTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeGrecTests.h; sourceTree = "<group>"; };
 		40481CBE144B1C4600A42E0A /* LeGrecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeGrecTests.m; sourceTree = "<group>"; };
+		40481CCC144B20BA00A42E0A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		40481CCE144B20C200A42E0A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		40481C83144B1C4500A42E0A = {
 			isa = PBXGroup;
 			children = (
+				40481CCE144B20C200A42E0A /* icon@2x.png */,
+				40481CCC144B20BA00A42E0A /* icon.png */,
 				40481C96144B1C4600A42E0A /* LeGrec */,
 				40481CB7144B1C4600A42E0A /* LeGrecTests */,
 				40481C91144B1C4600A42E0A /* Frameworks */,
@@ -224,6 +230,8 @@
 			files = (
 				40481C9B144B1C4600A42E0A /* InfoPlist.strings in Resources */,
 				40481CA4144B1C4600A42E0A /* MainStoryboard.storyboard in Resources */,
+				40481CCD144B20BA00A42E0A /* icon.png in Resources */,
+				40481CCF144B20C200A42E0A /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +367,8 @@
 		40481CC3144B1C4600A42E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
 				INFOPLIST_FILE = "LeGrec/LeGrec-Info.plist";
@@ -370,6 +380,8 @@
 		40481CC4144B1C4600A42E0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeGrec/LeGrec-Prefix.pch";
 				INFOPLIST_FILE = "LeGrec/LeGrec-Info.plist";
@@ -431,6 +443,7 @@
 				40481CC4144B1C4600A42E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40481CC5144B1C4600A42E0A /* Build configuration list for PBXNativeTarget "LeGrecTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +452,7 @@
 				40481CC7144B1C4600A42E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
